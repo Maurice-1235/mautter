@@ -1,14 +1,18 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-full.svg"
-    >
-  </q-page>
+  <div>
+    <MauttInput />
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'PageIndex'
-}
+  import MauttInput from "components/MauttInput.vue";
+  export default {
+    components: {
+      MauttInput,
+    },
+  }
 </script>
+
+<style lang="scss" scoped>
+
+</style>
